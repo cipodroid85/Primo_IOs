@@ -12,6 +12,7 @@
 		7AF49A8622A7EE75002A68A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF49A8422A7EE75002A68A9 /* Main.storyboard */; };
 		7AF49A8822A7EE77002A68A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF49A8722A7EE77002A68A9 /* Assets.xcassets */; };
 		7AF49A8B22A7EE77002A68A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF49A8922A7EE77002A68A9 /* LaunchScreen.storyboard */; };
+		7AF49A9322A7FDFF002A68A9 /* ImageSets.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7AF49A9222A7FDFF002A68A9 /* ImageSets.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7AF49A8722A7EE77002A68A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF49A8A22A7EE77002A68A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AF49A8C22A7EE77002A68A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF49A9222A7FDFF002A68A9 /* ImageSets.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ImageSets.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7AF49A8422A7EE75002A68A9 /* Main.storyboard */,
 				7AF49A8722A7EE77002A68A9 /* Assets.xcassets */,
 				7AF49A8922A7EE77002A68A9 /* LaunchScreen.storyboard */,
+				7AF49A9222A7FDFF002A68A9 /* ImageSets.zip */,
 				7AF49A8C22A7EE77002A68A9 /* Info.plist */,
 			);
 			path = "iOS-T1";
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF49A9322A7FDFF002A68A9 /* ImageSets.zip in Resources */,
 				7AF49A8B22A7EE77002A68A9 /* LaunchScreen.storyboard in Resources */,
 				7AF49A8822A7EE77002A68A9 /* Assets.xcassets in Resources */,
 				7AF49A8622A7EE75002A68A9 /* Main.storyboard in Resources */,
@@ -282,8 +286,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RVX326BN4;
 				INFOPLIST_FILE = "iOS-T1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,8 +306,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RVX326BN4;
 				INFOPLIST_FILE = "iOS-T1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

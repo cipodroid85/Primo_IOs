@@ -9,12 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var txt1: UILabel!
+    
+    @IBOutlet weak var button1: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func clicProc(_ sender: UIButton) {
+        txt1.text = "CIAO"
+    }
+    
 }
 
